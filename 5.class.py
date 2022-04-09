@@ -7,6 +7,7 @@ print("\n*************************************ex1*******************************
 stock_name1 = '삼성전자'
 # 현재가
 price1 = 60900
+
 # 수익률
 rate1 = 3.5
 print(f"stock_name: {stock_name1}, price: {price1}, rate: {rate1}")
@@ -46,7 +47,7 @@ class Stock:  # Stock 이라는 이름을 가진 클래스를 정의
 # 삼성전자'를 Stock 클래스의 __init__ 생성자의 두번째 매개변수인 stock_name 전달.
 # 60900는 stock_price로 전달
 # 3.5는 stock_rate로 전달
-item1 = Stock('삼성전자', 60900, 3.5)
+item1 = Stock('삼성전자', 60950, 3.5)
 item2 = Stock('SK텔레콤', 238000, 20)
 item3 = Stock('현대자동차', 165500, 3)
 
