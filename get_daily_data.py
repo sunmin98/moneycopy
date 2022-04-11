@@ -13,7 +13,7 @@ class get_daily_data():
         # 첫 번째 parameter : 종목코드 (ex.  005930 : 삼성전자 종목 코드) *종목별 코드 번호 존재
         # 두 번째 parameter : 데이터를 가져올 최종 날짜 설정
 
-        data = self.api.get_total_data('005930', '20220405')
+        data = self.api.get_total_data('005930', '20220410')
 
         # open : 시작가
         # high : 최고가
