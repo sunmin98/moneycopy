@@ -40,7 +40,7 @@ class Collector:
         print("get_stock_data 함수에 들어왔습니다.")
 
         # self.item : StockItem 클래스의 인스턴스
-        # self.item.code_df_kospi : self.item 객체의 속성.
+        # self.item.code_df_kospi : self.item 객체의 속성..
         print("코스피 종목 리스트 !!!")
         print(self.item.code_df_kospi)
 
