@@ -42,7 +42,7 @@ class collector_api():
 
         # stock_item_all(kospi,kosdaq,konex)
         # kospi(stock_kospi), kosdaq(stock_kosdaq), konex(stock_konex)
-        # 관리종목(stock_managing), 불성실법인종목(stock_insincerity) 업데이트..
+        # 관리종목(stock_managing), 불성실법인종목(stock_insincerity) 업데이트
         if rows[0][0] != self.open_api.today:
             self.get_code_list()  # 촬영 후 일부 업데이트 되었습니다.
 
